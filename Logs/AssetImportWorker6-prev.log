@@ -1,0 +1,329 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.34f1 (25266724e7bd) revision 2434663'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7863 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Unity Projects/Assassin-3D
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+62025
+Successfully changed project path to: C:/Unity Projects/Assassin-3D
+C:/Unity Projects/Assassin-3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26100] Host "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 3155707520 [EditorId] 3155707520 [Version] 1048832 [Id] WindowsEditor(7,LINGESH-PERSONAL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26100] Host "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 3155707520 [EditorId] 3155707520 [Version] 1048832 [Id] WindowsEditor(7,LINGESH-PERSONAL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 152.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.34f1 (25266724e7bd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity Projects/Assassin-3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
+    Vendor:   Intel
+    VRAM:     3931 MB
+    Driver:   31.0.101.4032
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010794 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 936 ms
+Refreshing native plugins compatible for Editor in 176.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.992 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2993ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (2524ms)
+			LoadAssemblies (252ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1993ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1423ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (177ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (146ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 211.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  4.156 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4158ms)
+		BeginReloadAssembly (435ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (3486ms)
+			LoadAssemblies (347ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (711ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (123ms)
+			SetupLoadedEditorAssemblies (2206ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (80ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (212ms)
+				BeforeProcessingInitializeOnLoad (222ms)
+				ProcessInitializeOnLoadAttributes (1588ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3271 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.6 MB). Loaded Objects now: 3757.
+Memory consumption went from 159.7 MB to 159.2 MB.
+Total: 6.004500 ms (FindLiveObjects: 0.403700 ms CreateObjectMapping: 0.270600 ms MarkObjects: 4.916000 ms  DeleteObjects: 0.411700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 712561.238001 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions
+  artifactKey: Guid(68268cae718ee3a49928d3510623883e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions using Guid(68268cae718ee3a49928d3510623883e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22017adb90968db7bd7071c68045873') in 0.048107 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.024084 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Electro hit.prefab
+  artifactKey: Guid(a164e676dbbd6e54587237e619372c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Electro hit.prefab using Guid(a164e676dbbd6e54587237e619372c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7f59c0a22a2a5eb930f19c93d793a3') in 0.255875 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Holy hit.prefab
+  artifactKey: Guid(e190bf97c041e58448af6b043116cba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Holy hit.prefab using Guid(e190bf97c041e58448af6b043116cba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ab7cc63139a6c6753d55c00e1d86ba') in 0.044702 seconds 
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 6.885296 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic shields
+  artifactKey: Guid(ff54bd536efd4e54a8f4ecf8cc8b8a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic shields using Guid(ff54bd536efd4e54a8f4ecf8cc8b8a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab6e270cc8e74b8e14d99811eea7ebc') in 0.041385 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059610 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic shields/Magic shield blue.prefab
+  artifactKey: Guid(b99922c2f59b1a542bdd06ae8bee47ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic shields/Magic shield blue.prefab using Guid(b99922c2f59b1a542bdd06ae8bee47ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac6dc4c124f2ea4fc04363ab74dbdd6') in 0.070812 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 44.429829 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Point.mat
+  artifactKey: Guid(e546d2d7171981b468cf29388d902e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Point.mat using Guid(e546d2d7171981b468cf29388d902e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931145a440e9ac947f8d9332636e6f1a') in 0.120218 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.423186 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials
+  artifactKey: Guid(a342b6520836d4e40bf3cae8acbccd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Materials using Guid(a342b6520836d4e40bf3cae8acbccd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55896dc672df433c29e0eb1aabcb622e') in 0.010819 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.088861 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Additive.mat
+  artifactKey: Guid(32fac6e45890e9d48961b3db7c93c0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Additive.mat using Guid(32fac6e45890e9d48961b3db7c93c0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00dce81d981ec9465b07a740e0005e6f') in 0.093883 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Snowflake.mat
+  artifactKey: Guid(110e8ef5ba5275f4c864c6b5190c7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Snowflake.mat using Guid(110e8ef5ba5275f4c864c6b5190c7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503332cbec80bf7dbac7d0bb14bf919f') in 0.060275 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/DistortionPoint.mat
+  artifactKey: Guid(fe8d615cbaec71545b42f9163243b02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/DistortionPoint.mat using Guid(fe8d615cbaec71545b42f9163243b02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4961603814242664d2a7a67ab2f17568') in 0.184416 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Stone.mat
+  artifactKey: Guid(5e01cbbef75a454468e5eb490ac64181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Stone.mat using Guid(5e01cbbef75a454468e5eb490ac64181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc6a700f1b2bd10864a12f745a993ec') in 0.031498 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Smoke26.mat
+  artifactKey: Guid(616a777eb757ff14c82a79feeb35d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Smoke26.mat using Guid(616a777eb757ff14c82a79feeb35d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc571489baff9d7ec21dcd6b4acbdad') in 0.034578 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/TechCircle.mat
+  artifactKey: Guid(48c12feeb614f8d439f1f0c476f145c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/TechCircle.mat using Guid(48c12feeb614f8d439f1f0c476f145c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6064639236cb76d1a99a248c759e8e') in 0.066081 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Flare.mat
+  artifactKey: Guid(818e127314f46c844a3b31d893dcfe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Flare.mat using Guid(818e127314f46c844a3b31d893dcfe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367f275195fb6e2862fdeaa9710f0fa2') in 0.029987 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.884431 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Models
+  artifactKey: Guid(ad4081446914afa4e94efff5e5b27056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Models using Guid(ad4081446914afa4e94efff5e5b27056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381689102c125d03f1883ccfc4a8e4b0') in 0.039198 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059903 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Models/Slash.fbx
+  artifactKey: Guid(ce274bd34d1b1d24f831cdd3e246a4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Models/Slash.fbx using Guid(ce274bd34d1b1d24f831cdd3e246a4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d285132220aeaa2f83a372bf8cae88') in 0.070272 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 4.142886 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Portals
+  artifactKey: Guid(562e4f1f238cfc74e85b37873fe6bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Portals using Guid(562e4f1f238cfc74e85b37873fe6bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374a84bac144ab48625ae96e264cb228') in 0.018575 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.036483 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal blue.prefab
+  artifactKey: Guid(45e0f06c750176947862c10346226439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal blue.prefab using Guid(45e0f06c750176947862c10346226439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5c2ace34db70112b8d4c9abaca54f6') in 0.034095 seconds 
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal yellow.prefab
+  artifactKey: Guid(5ad33d58a66ab154a89c9e88255601e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal yellow.prefab using Guid(5ad33d58a66ab154a89c9e88255601e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa3699a36f40dfbc21abebe3649ed66') in 0.036240 seconds 
+Number of asset objects unloaded after import = 26
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
